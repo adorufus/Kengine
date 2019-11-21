@@ -1,0 +1,3 @@
+[submodule "Kengine/vendor/spdlog"]
+	path = Kengine/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
