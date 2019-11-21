@@ -5,22 +5,22 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kengine", "Kengine\Kengine.vcxproj", "{565B7767-BB43-4A77-8AEA-29B4D90E8659}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sanbox", "Sanbox\Sanbox.vcxproj", "{47C94A08-AAAC-4639-B211-4FBA33E764CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Debug|x64.ActiveCfg = Debug|x64
 		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Debug|x64.Build.0 = Debug|x64
-		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Debug|x86.ActiveCfg = Debug|Win32
-		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Debug|x86.Build.0 = Debug|Win32
 		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Release|x64.ActiveCfg = Release|x64
 		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Release|x64.Build.0 = Release|x64
-		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Release|x86.ActiveCfg = Release|Win32
-		{565B7767-BB43-4A77-8AEA-29B4D90E8659}.Release|x86.Build.0 = Release|Win32
+		{47C94A08-AAAC-4639-B211-4FBA33E764CA}.Debug|x64.ActiveCfg = Debug|x64
+		{47C94A08-AAAC-4639-B211-4FBA33E764CA}.Debug|x64.Build.0 = Debug|x64
+		{47C94A08-AAAC-4639-B211-4FBA33E764CA}.Release|x64.ActiveCfg = Release|x64
+		{47C94A08-AAAC-4639-B211-4FBA33E764CA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
