@@ -1,42 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Kengine">
+      <UniqueIdentifier>{2641A984-9220-2820-9B38-B3F607978E81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Kengine\Events">
+      <UniqueIdentifier>{4A66D120-3634-C526-1FC8-354D0B35A18B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Kengine\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Kengine.h" />
     <ClInclude Include="src\Kengine\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Kengine</Filter>
     </ClInclude>
-    <ClInclude Include="src\Kengine.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\Kengine\Core.h">
+      <Filter>Kengine</Filter>
     </ClInclude>
     <ClInclude Include="src\Kengine\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>Kengine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kengine\Events\ApplicationEvent.h">
+      <Filter>Kengine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kengine\Events\Event.h">
+      <Filter>Kengine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kengine\Events\KeyEvent.h">
+      <Filter>Kengine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kengine\Events\MouseEvent.h">
+      <Filter>Kengine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Kengine\Log.h">
-      <Filter>Header Files</Filter>
+      <Filter>Kengine</Filter>
     </ClInclude>
+    <ClInclude Include="src\hzpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Kengine\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Kengine</Filter>
     </ClCompile>
     <ClCompile Include="src\Kengine\Log.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Kengine</Filter>
     </ClCompile>
+    <ClCompile Include="src\hzpch.cpp" />
   </ItemGroup>
 </Project>
