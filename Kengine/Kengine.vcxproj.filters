@@ -35,6 +35,8 @@
       <Filter>Kengine</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h" />
+    <ClInclude Include="src\Kengine\Window.h" />
+    <ClInclude Include="WindowWindows.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Kengine\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>Kengine</Filter>
     </ClCompile>
     <ClCompile Include="src\hzpch.cpp" />
+    <ClCompile Include="WindowWindows.cpp" />
   </ItemGroup>
 </Project>

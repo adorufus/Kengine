@@ -9,6 +9,11 @@ workspace "Kengine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "Kengine/vendor/GLFW/include"
+
+include "Kengine/vendor/GLFW"
+
 project "Kengine"
 	location "Kengine"
 	kind "SharedLib"
@@ -27,7 +32,13 @@ project "Kengine"
 
 	includedirs {
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
